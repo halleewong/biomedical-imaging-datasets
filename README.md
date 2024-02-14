@@ -1,9 +1,79 @@
 # Biomedical Imaging Datasets
 
-A braindump of biomedical imaging datasets with a focus on segmentation. Feel free to contribute! 
+A list of biomedical imaging datasets with a focus on segmentation. Feel free to contribute! 
 
-| Dataset | Description | Task(s) | Type | Dim. | Links | 
+| Dataset | Description | Labels / Task(s) | Type | Dim. | Links | 
 | --- | --- | --- | --- | --- | ---| 
-| CHASE | Retinal vein segmentation | Multi-annotator Seg. | Retinal | 2D | [website](https://blogs.kingston.ac.uk/retinal/chasedb1/), [paper](https://doi.org/10.1109/TBME.2012.2205687) |
-| DRIVE | Retinal vein segmentation | Segmentation | Retinal | 2D | [website](https://drive.grand-challenge.org/) |
-| STARE | Retinal vein segmentation | Multi-annotator Seg. | Retinal | 2D | [website](https://cecas.clemson.edu/~ahoover/stare/) |
+3DTeethSeg22|MICCAI 2022 Challenge. 1800 3D intra-oral scans for 900 patients covering upper and lower jaws separately. Tooth labels and instances | Instance Segmentation | Intra-oral scan | 3D |[website](https://github.com/abenhamadou/3DTeethSeg22_challenge)[website](https://arxiv.org/abs/2206.08778)
+AbdomenCT-1K| Abdominal organ segmentation (overlap with KiTS, LiTS, MSD, NIH-PancreasCT) | Segmentation | CT | 3D | [website](https://github.com/JunMa11/AbdomenCT-1K), [paper](https://ieeexplore.ieee.org/document/9497733) | 
+AbdomenCT-8K| Abdominal organ segmentation | Segmentation | CT | 3D | [website](https://github.com/MrGiovanni/AbdomenAtlas) |
+AbdominalUS| 617 real and 926 simulated US scans. Abdominal organ segmentations (liver, kidneys, gallbladder, spleen and vessels) on a subset of 61 real scans. | Segmentation| Ultrasound | 2D | [website](https://www.kaggle.com/datasets/ignaciorlando/ussimandsegm)
+ACDC|Left and right ventricular endocardium|Segmentation, Classification, Scribbles | Cine-MRI | 3D |[website](https://www.creatis.insa-lyon.fr/Challenge/acdc/databases.html), [paper](https://pubmed.ncbi.nlm.nih.gov/29994302/)
+ADHD200|Brain|Segmentation|fMRI|3D|[website](https://fcon_1000.projects.nitrc.org/indi/adhd200/)
+ADNI|Brain|Segmentation|MRI, Pet | 3D |[website](https://adni.loni.usc.edu/)
+AirwaySeg | Airway segmentation and centerline extraction from thoracic CT | Segmentation | CT | 3D |[website](https://datadryad.org/stash/dataset/doi:10.5061/dryad.mj76c)
+AMOS | Adominal Organ Segmentation | Segmentation| CT | 3D |[website](https://amos22.grand-challenge.org/), [paper](https://arxiv.org/abs/2206.08023)
+ATLAS| Lesion segmentation | Segmentation | T1-MRI| 3D | [website](https://fcon_1000.projects.nitrc.org/indi/retro/atlas.html)
+BBBC003 | Mouse embryo | Segmentation | Microscopy | 2D | [website](https://bbbc.broadinstitute.org/), [paper](https://www.nature.com/articles/nmeth.2083)
+BBBC024| Synthetic | Instance Segmentation | Microscopy | 3D |[website](https://bbbc.broadinstitute.org/BBBC024) 
+BBBC038| Kaggle 2018 Data Science Bowl. Nuclei segmentation in diverse biological images | Instance Segmentation | Microscopy | 2D |[website](https://bbbc.broadinstitute.org/BBBC038)
+BBBC039| Nuclei of U2OS cells in a chemical screen, 200 images | Instance Segmentation | Microscopy | 2D | [website](https://bbbc.broadinstitute.org/BBBC039)
+BCIHM| CT images for intracranial hemorrhage detection and segmentation |Classification, Segmentation | CT | 3D | [website](https://physionet.org/content/ct-ich/1.3.1/)
+BCN20k| Diagnostic classification of dermatology images | Classification |Derm | 2D | [website](https://challenge.isic-archive.com/landing/2019/)
+BCSS| 20,000 segmentation annotations of tissue region from breast cancer images from TCGA | Segmentation | WSI | 2D |[website](https://bcsegmentation.grand-challenge.org/), [paper](https://academic.oup.com/bioinformatics/article/35/18/3461/5307750)
+BF-TMA| Aligned Bright-Field (BF) and Second-Harmonic Generation (SHG) images | Registration| Microscopy | 2D | [website](https://zenodo.org/record/3874362)
+BHSD | Brain Hemorrhage Segmentation Dataset | Classification, Segmentation | CT | 3D | [website](https://arxiv.org/abs/2308.11298)
+BTCV | Abdominal organ segmentation in scans from colorectal cancer patients and cervical cancer patients. Subdatasets: Abdominal and Cervix | Segmentation | CT | 3D |[website](https://www.synapse.org/#!Synapse:syn3193805/wiki/217789)
+CHASE | Retinal vein segmentation | Multi-annotator Seg. | Retinal | 2D | [website](https://blogs.kingston.ac.uk/retinal/chasedb1/), [paper](https://doi.org/10.1109/TBME.2012.2205687) 
+DRIVE | Retinal vein segmentation | Segmentation | Retinal | 2D | [website](https://drive.grand-challenge.org/) 
+PanDental | Panoramic dental X-Rays with mandible and teeth segmented |Segmentation | X-Ray | 2D | [website](https://data.mendeley.com/datasets/hxt48yk462/2)
+PanNuke|Nucleus segmentation| Segmentation | Microscopy | 2D |[website](https://warwick.ac.uk/fac/cross_fac/tia/data/pannuke)[website](https://arxiv.org/pdf/2003.10778.pdf)
+PAXRay| Chest X-Rays projected from CTs. Overlapping segmentations |Segmentation|2D|X-Ray|[website](https://constantinseibold.github.io/paxray/), [paper](https://arxiv.org/abs/2210.03416)
+Polyp | A multi-centre polyp detection and segmentation dataset for generalisability assessment |Detection, Segmentation| Scope| 2D | [website](https://www.nature.com/articles/s41597-023-01981-y)
+PPMI| Brain regions of Parkinson patients | Segmentation | MRI | 3D | [website](https://www.ppmi-info.org/) | 
+PRIME-FP20 | Retinal vessel segmentation | Segmentation | Retinal | 2D |[website](https://ieee-dataport.org/open-access/prime-fp20-ultra-widefield-fundus-photography-vessel-segmentation-dataset)
+PROMISE12 | Prostate | Segmentation| T2-MRI | 2D | [website](https://promise12.grand-challenge.org/)
+Qubiq | Collection of multi-annotator segmentation datasets (prostate, brain tumor, pancreas, kidney) | Multi-Annotator Seg. | MRI, CT | 2D, 3D | [website](https://qubiq21.grand-challenge.org/participation/)
+RadImageNet | Large collection of images | Classification | MRI, CT, PET, Ultrasound | 2D | [website](https://www.radimagenet.com/)
+REFUGE2| Optical disk and cup segmentation | Multi-Annotator Seg. | Retinal | 2D | [website](https://aistudio.baidu.com/aistudio/datasetdetail/177198), [paper](https://arxiv.org/abs/2202.08994)
+RibFrac | Rib fracture detection, segmentation and classification. Same CTs as PAXRay, rough segmentations | Detection, Segmentation, Classification | CT | 3D |[website](https://zenodo.org/record/3893508)
+RibSeg | Rib segmentations and centerlines | Segmentation, Centerlines | CT | 3D |[website](https://github.com/M3DV/RibSeg), [paper](https://t.co/6thzrnq7nu)
+RIGA | Optical cup and disk boundaries | Segmentation | Retinal | 2D |[website](https://deepblue.lib.umich.edu/data/concern/data_sets/3b591905z)
+RITE | Retinal vessel tree extraction. Same images as DRIVE | Centerlines | Retinal | 2D | [website](https://www.kaggle.com/datasets/priyanagda/ritedataset)
+RoboTool| Surgical tool segmentation | Segmentation | Scope | 2D |[website](https://www.synapse.org/#!Synapse:syn22427422), [paper](https://arxiv.org/abs/2102.09528)
+ROSE|Retinal vessel segmentation | Segmentation | OCT | 2D | [paper](https://arxiv.org/abs/2007.05201)
+RSNASpine| RSNA 2022 Cervical Spine Fracture Detection. Subset of data has bounding boxes and segmentations | Detection, Segmentation | CT | 3D| [website](https://www.kaggle.com/competitions/rsna-2022-cervical-spine-fracture-detection/data)
+SCR | Chest X-Rays with segmentations for lungs, heart, clavicle (images from JSRT) | Segmentation | X-Ray | 2D |[website](https://zenodo.org/record/7056076), [paper](https://www.sciencedirect.com/science/article/abs/pii/S1361841505000368?via%3Dihub)
+SegA| MICCAI 2023 Challenge. Aorta segmentation | Segmentation| CTA | 3D |[website](https://multicenteraorta.grand-challenge.org/)
+SegPC | Segmentation of multiple myeloma cells | Segmentation|Microscopy | 2D |[website](https://segpc-2021.grand-challenge.org/)
+SegRap| MICCAI 2023 Challenge. Segmentation of 45 organs at risk and gross tumor volume (nasopharyngeal carcinomas) in head/neck | Segmentation | CT | 3D |[website](https://segrap2023.grand-challenge.org/), [paper](https://arxiv.org/abs/2312.09576)
+SegTHOR| ISBI 2019 Challenge. Segmentation of THoracic Organs at Risk in CT images (heart, aorta, trachea, esophagus) | Segmentation | CT | 3D |[website](https://competitions.codalab.org/competitions/21145)
+SegThy | Thyroid and artery/vein segmentation in neck | Segmentation| MRI,Ultrasound | 3D | [website](https://www.cs.cit.tum.de/camp/publications/segthy-dataset/)
+ShenzhenXRay| Lung segmentation (both lungs together) in chest X-Rays | Segmentation | X-Ray | 2D |[website](https://www.kaggle.com/datasets/yoctoman/shcxr-lung-mask)
+SCD| Sunnybrook Cardiac Multi-Dataset Collection. 2009 Cardiac MR Left Ventricle Segmentation Challenge data. 45 cine-MRI images from a mixed of patients and pathologies: healthy, hypertrophy, heart failure with infarction and heart failure without infarction | Segmentation | Cine-MRI| 3D | [website](https://www.cardiacatlas.org/sunnybrook-cardiac-data/), [paper](https://midasjournal.org/browse/publication/658)
+SKM-TEA | 155 quantitative double echo steady state MRI knee scans (incl. raw k space) acquired clinically. Segmentations of six tissues and bounding boxes for 16 pathologies | Segmentation, Detection | MRI | 3D | [website](https://stanfordaimi.azurewebsites.net/datasets/4aaeafb9-c6e6-4e3c-9188-3aaaf0e0a9e7), [paper](https://openreview.net/forum?id=YDMFgD_qJuA)
+SMIR | Full Body CT | Just Images | CT | 3D | [website](https://www.smir.ch/objects/214315)
+SMIR_Choclea | Ear | Segmentation | CT | 3D |[website](https://www.smir.ch/objects/204388)
+SNEMI3D | Neurites in EM |Segmentation | Electron Microscopy | 3D | [website](https://zenodo.org/record/7142003)
+SPIDER| Lumbar spine segmentation in MR images: a dataset and a public benchmark. Vertebra, intervertebral discs (IVDs),  and spinal canal | Segmentation | T1-MRI, T2-MRI | 3D |[website](https://zenodo.org/records/8009680)
+SpineWeb| Collection of datasets related to spine |Segmentation| T2-MRI, CT | 2D, 3D |[website](http://spineweb.digitalimaginggroup.ca/)
+ssTEM| serial section Transmission Electron Microscopy (ssTEM) of the Drosophila melanogaster third instar larva ventral nerve cord. Dense labeling of neuron membranes (including orientation and junction), mitochondria, synapses and glia/extracellular space. 20 scans with multiple labels |Segmentation| Electron Microscopy | 2D |[website](https://github.com/unidesigner/groundtruth-drosophila-vnc), [paper](https://figshare.com/articles/dataset/Segmented_anisotropic_ssTEM_dataset_of_neural_tissue/856713)
+| STARE | Retinal vein segmentation | Multi-annotator Seg. | Retinal | 2D | [website](https://cecas.clemson.edu/~ahoover/stare/) 
+StructSeg| MICCAI 2019 Challenge. Organ at Risk and Gross Target Volume Segmentation in Head/Neck and Chest | Segmentation | CT | 3D |[website](https://structseg2019.grand-challenge.org/)
+STS2D | MICCAI 2023 Challenge. Tooth segmentation |Segmentation|2D|Xray|[website](https://tianchi.aliyun.com/competition/entrance/532086/introduction?spm=a2c22.12281976.0.0.443c193cAzwfJZ)
+STS3D| MICCAI 2023 Challenge. Tooth segmentation | Segmentation | CBCT | 3D | [website](https://tianchi.aliyun.com/competition/entrance/532087/introduction)
+TBI_ICH| 82 CT scans of patients with traumatic brain injury. Intracranial hemorrhage regions in these scans were delineated in each slice by two radiologists |Multi-Annotator Seg. | CT | 3D |[website](https://physionet.org/content/ct-ich/1.3.1/)
+TDSC_ABUS| MICCAI 2023 Challenge. Tumor detection, segmentation and classification in breast ultrasound | Segmentation, Classification |Ultrasound | 3D | [website](https://tdsc-abus2023.grand-challenge.org/)
+ToothFairy | MICCAI 2023 Challenge. Inferior Alveolar Nerve (IAN) canal detection. Dense and sparse annotations | Segmentation | CBCT |3D|[website](https://ditto.ing.unimore.it/toothfairy/), [paper](https://openaccess.thecvf.com/content/CVPR2022/html/Cipriano_Improving_Segmentation_of_the_Inferior_Alveolar_Nerve_Through_Deep_Label_CVPR_2022_paper.html)
+ToothSeg | Individual segmentation of teeth in dental X-Rays | Segmentation |X-Ray | 2D | [website](https://humansintheloop.org/resources/datasets/teeth-segmentation-dataset/)
+TotalSegmentator | Segmentation of 104 Anatomical Structures in 1204 CT scans | Segmentation | CT | 3D | [website](https://zenodo.org/record/6802614)
+TUCC | Thyroid Ultrasounds Cine-Clip Dataset. Images from 167 patients with biopsy-confirmed thyroid nodules (n=192) | Segmentation, Classification | Ultrasound Video | 2D + Time | [website](https://stanfordaimi.azurewebsites.net/datasets/a72f2b02-7b53-4c5d-963c-d7253220bfd5), [paper](https://link.springer.com/article/10.1007/s11063-022-10940-4)
+VerSe | Individual vertebra segmentation | Segmentation| CT | 3D | [website](https://github.com/anjany/verse)
+VinDr-CXR| Chest X-Ray | Segmentation | X-Ray | 2D | [website](https://physionet.org/content/vindr-pcxr/1.0.0/)
+VISCERAL | Anatomy3 Challenge | Segmentation | CT,MRI | 3D |[website](https://visceral.eu/closed-benchmarks/anatomy3/)
+VocalFolds| Laryngeal endoscopic images | Segmentation | Endoscopic video |2D + Time |[website](https://github.com/imesluh/vocalfolds), [paper](https://arxiv.org/abs/1807.06081)
+WBC | Nucleus and cytoplasm segmentation in white blood cells |Segmentation | Optical Microscope Camera | 2D |[website](https://github.com/zxaoyou/segmentation_WBC)
+WMH | White Matter Hyperintensity (WMH) Segmentation Challenge |Segmentation| T1-MRI, FLAIR | 3D |[website](https://wmh.isi.uu.nl/), [paper](https://dataverse.nl/dataset.xhtml?persistentId=doi:10.34894/AECRSD)
+WORD| Abdominal organ segmentation | Segmentation | CT | 3D| [website](https://github.com/HiLab-git/WORD)
+
+
