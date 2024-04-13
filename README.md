@@ -72,8 +72,7 @@ A list of biomedical imaging datasets with a focus on segmentation. Feel free to
 |[fastMRI](https://fastmri.med.nyu.edu/) | Knee, Brain and Prostate MRI | Just Images | Multimodal MRI | 3D |
 |[FDG-PET-CT-Lesions](https://www.nature.com/articles/s41597-022-01718-3) |Lesions in full-body CT | Segmentation| PET/CT | 3D |
 |[FeTA](http://neuroimaging.ch/feta) | Fetal brain structures | Segmentation | MRI | 3D
-|[Feto_Plac](https://arxiv.org/abs/2007.04349) | in vivo vessel segmentation and fetoscopic video | Segmentation | Fetoscopic Video | 2D + Time |
-|[fetoscopy_placenta](https://www.ucl.ac.uk/interventional-surgical-sciences/weiss-open-research/weiss-open-data-server/fetoscopy-placenta-data) | 483 frames with ground-truth vessel segmentation annotations taken from six different in vivo fetoscopic procedure videos and 6 unannotated clips |Segmentation | Fetoscopic Video | 2D |
+|[Feto_Plac](https://arxiv.org/abs/2007.04349) | 483 frames with ground-truth vessel segmentation annotations taken from six different in vivo fetoscopic procedure videos and 6 unannotated clips | Segmentation | Fetoscopic Video | 2D + Time |
 |[FLARE21](https://zenodo.org/records/5903672) | Abdominal organ segmentation (liver, kidney, spleen, and pancreas). 511 cases | Segmentation | CT | 3D |
 |[GlaS](https://www.kaggle.com/datasets/sani84/glasmiccai2015-gland-segmentation) | Gland segmentation in images of Hematoxylin and Eosin (H&E) stained slides | Segmentation, Classification | WSI | 2D |
 |[GMSC](http://niftyweb.cs.ucl.ac.uk/program.php?p=CHALLENGE) | Grey Matter Spinal Cord segmentation challenge | Segmentation | MRI | 3D |
@@ -110,7 +109,7 @@ A list of biomedical imaging datasets with a focus on segmentation. Feel free to
 |[MICA_MICs](https://www.nature.com/articles/s41597-022-01682-y?s=09) | A dataset for Microstructure-Informed Connectomics. Raw and fully processed multimodal neuroimaging data acquired in 50 healthy control participants at a filed strength of 3T. Connectomes built across multiple parcellation schemes (18 total). | Other | T1-MRI, DWI, rfMRI | 3D |
 |[MIDA](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4406723/) | Head and neck with lots of labels |Segmentation | MRI | 3D |
 |[MIMIC-CXR](https://physionet.org/content/mimic-cxr/2.0.0/) | Large collection of chest X-Rays (n=377,110) with free-text reports. Segmentations available in [CheXmask](https://physionet.org/content/chexmask-cxr-segmentation-data/0.1/) | Text, Segmentation | X-Ray | 2D |
-|[Mindboggle-101](https://mindboggle.info/data) | individually labeled human brain surfaces and volumes, templates (unlabeled images combining the individual brains, used for registration), atlases (anatomical labels combining the individual brains, used for labeling) | Segmentation, Other |  | 3D
+|[Mindboggle-101](https://mindboggle.info/data) | individually labeled human brain surfaces and volumes, templates (unlabeled images combining the individual brains, used for registration), atlases (anatomical labels combining the individual brains, used for labeling) | Segmentation, Other | T1-MRI | 3D
 |[MitoEM](https://pubmed.ncbi.nlm.nih.gov/33283212/) | Mitoem dataset: Large-scale 3d mitochondria instance segmentation from em images | Instance Segmentation | EM | 3D |
 |[MM-WHS](https://pubmed.ncbi.nlm.nih.gov/26999615/)| MM-WHS: Multi-Modality Whole Heart Segmentation | Segmentation | CT, MRI | 3D |
 |[MMOTU](https://arxiv.org/abs/2207.06799)| Multi-Modality Ovarian Tumor Ultrasound (MMOTU) image dataset. Subdatasets: Ultrasounds and Contrast Enhanced Ultrasounds | Segmentation | Ultrasound/CEUS | 2D |
